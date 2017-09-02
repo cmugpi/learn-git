@@ -1,0 +1,19 @@
+{
+	"private": true,
+	"name": "learn-git",
+	"version": "0.1.0",
+	"description": "learn how to use git",
+	"author": "Ariel Davis <ariel.z.davis@icloud.com>",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/azdavis/learn-git.git"
+	},
+	"bugs": {
+		"url": "https://github.com/azdavis/learn-git/issues"
+	},
+	"homepage": "https://github.com/azdavis/learn-git#readme",
+	"dependencies": {
+		"markdown-to-slides": "^1.0.5"
+	}
+}
