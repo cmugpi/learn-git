@@ -51,8 +51,10 @@ We'll see why you have to do this later.
 
 ## A sample project
 
-Let's go into our sample project directory and look around.
+Let's grab a sample project to work with.
 
+	$ curl -sO https://azdavis.xyz/sample-project.zip
+	$ unzip -q sample-project.zip
 	$ cd sample-project
 	$ ls -a
 	.  ..  license.md  main.py  readme.md
