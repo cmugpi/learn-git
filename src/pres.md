@@ -111,7 +111,8 @@ our project is.
 		main.py
 		readme.md
 
-	nothing added to commit but untracked files present (use "git add" to track)
+	nothing added to commit but untracked files present
+	(use "git add" to track)
 
 This seems to be talking quite a bit about something called a "commit." What is
 that?
