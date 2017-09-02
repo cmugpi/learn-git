@@ -139,7 +139,7 @@ version has been "committed."
 
 Note: * means "requires further explaination."
 
-## Our first commit
+## Adding files to a commit
 
 Let's add the entire project to the list of files to be committed. (Remember
 `.` means the current directory.)
@@ -159,6 +159,8 @@ Let's look at the status again.
 		new file:   license.md
 		new file:   main.py
 		new file:   readme.md
+
+## Making a commit
 
 OK, let's commit it. We can use the `-m` option of `git commit` to add a
 message.
