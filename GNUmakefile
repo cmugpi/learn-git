@@ -2,12 +2,15 @@ N = $(PWD)/node_modules/.bin/
 
 .SUFFIXES:
 .PHONY: all clean
-.PRECIOUS: %.html
+.PRECIOUS: node_modules build/%.html
 
-all: build/pres.html
+all: node_modules build/pres.html
 
 clean:
 	rm -rf build
+
+node_modules:
+	npm i
 
 build/%.html: src/%.md
 	mkdir -p $(dir $@)
