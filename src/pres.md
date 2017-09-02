@@ -42,7 +42,7 @@ this out to see if you have git installed:
 
 ## Set up your information with git
 
-You'll only have to do this once:
+You'll only have to do this once per computer that you use:
 
 	$ git config --global user.name 'Your Name'
 	$ git config --global user.email 'your_email@example.com'
