@@ -57,7 +57,7 @@ Let's grab a sample project to work with.
 	$ unzip -q sample-project.zip
 	$ cd sample-project
 	$ ls -a
-	.  ..  license.md  main.py  readme.md
+	.  ..  main.py  readme.md
 
 This project isn't yet managed by git. We can prove that to ourselves with:
 
@@ -74,7 +74,7 @@ We want to start managing this project with Git. We can do this with:
 Ok, what changed?
 
 	$ ls -a
-	.  ..  .git  license.md  main.py  readme.md
+	.  ..  .git  main.py  readme.md
 
 ## The `.git` directory
 
@@ -109,7 +109,6 @@ our project is.
 	Untracked files:
 	  (use "git add <file>..." to include in what will be committed)
 
-		license.md
 		main.py
 		readme.md
 
@@ -158,7 +157,6 @@ Let's look at the status again.
 	Changes to be committed:
 	  (use "git rm --cached <file>..." to unstage)
 
-		new file:   license.md
 		new file:   main.py
 		new file:   readme.md
 
@@ -170,7 +168,6 @@ message.
 	$ git commit -m 'Start the project'
 	[master (root-commit) bfe6c6e] Start the project
 	 3 files changed, 35 insertions(+)
-	 create mode 100644 license.md
 	 create mode 100644 main.py
 	 create mode 100644 readme.md
 
