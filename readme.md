@@ -7,3 +7,4 @@ learn how to use git
 - POSIX
 - GNU make
 - node + npm
+- git
