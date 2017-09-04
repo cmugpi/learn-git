@@ -2,7 +2,6 @@ N = $(PWD)/node_modules/.bin/
 
 .SUFFIXES:
 .PHONY: all clean watch
-.PRECIOUS: node_modules build/%.html
 
 all: node_modules build/pres.html
 
