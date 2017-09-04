@@ -141,10 +141,8 @@ version has been "committed."
 ## The index
 
 In order for a change to a file to be part of the next commit, we need to add
-those changes to the index.
-
-To add things to the index, we use `git add`. Let's add every file in the
-current directory to the index.
+those changes to the index. The command to do that is `git add`. Let's add
+every file in the current directory to the index.
 
 	$ git add .
 
