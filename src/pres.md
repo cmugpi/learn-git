@@ -53,7 +53,7 @@ We'll see why you have to do this later.
 
 Let's grab a sample project to work with.
 
-	$ curl -sO https://azdavis.xyz/sample-project.zip
+	$ curl -so sample-project.zip https://git.io/v5zeO
 	$ unzip -q sample-project.zip
 	$ cd sample-project
 	$ ls -a
