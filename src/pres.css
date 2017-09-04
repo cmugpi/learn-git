@@ -37,3 +37,11 @@ h2,
 h3 {
 	line-height: 1.3;
 }
+
+h2 {
+	margin: 0.5em 0;
+}
+
+.remark-slide-content {
+	padding: 1em;
+}
