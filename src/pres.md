@@ -167,8 +167,8 @@ OK, let's commit it. We can use the `-m` option of `git commit` to add a
 message.
 
 	$ git commit -m 'Start the project'
-	[master (root-commit) bfe6c6e] Start the project
-	 3 files changed, 35 insertions(+)
+	[master (root-commit) 9f0c312] Start the project
+	 2 files changed, 8 insertions(+)
 	 create mode 100644 main.py
 	 create mode 100644 readme.md
 
@@ -183,9 +183,9 @@ And another look at the status:
 We can see what commits have been made in the past with `git log`.
 
 	$ git log
-	commit bfe6c6e5b962c56ae2e251e5001fdd8beecf3bde (HEAD -> master)
+	commit 9f0c312408966a1aff04726b75e6eb5a01694be1 (HEAD -> master)
 	Author: Ariel Davis <ariel.z.davis@icloud.com>
-	Date:   2017-09-02 18:52:48 -0400
+	Date:   2017-09-04 18:19:12 -0400
 
 	    Start the project
 
