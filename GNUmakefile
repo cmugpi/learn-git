@@ -15,6 +15,6 @@ watch:
 node_modules:
 	npm i
 
-build/%.html: src/%.md
+build/%.html: src/%.md src/%.css
 	mkdir -p $(dir $@)
-	$(N)markdown-to-slides -d --level 2 -o $@ $<
+	$(N)markdown-to-slides -d --level 2 -s src/$*.css -o $@ $<
