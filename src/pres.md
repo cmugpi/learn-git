@@ -138,10 +138,13 @@ version has been "committed."
 - Message
 - Previous commit(s)
 
-## Adding files to a commit
+## The index
 
-Let's add the entire project to the list of files to be committed. (Remember
-`.` means the current directory.)
+In order for a change to a file to be part of the next commit, we need to add
+those changes to the index.
+
+To add things to the index, we use `git add`. Let's add every file in the
+current directory to the index.
 
 	$ git add .
 
