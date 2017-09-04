@@ -132,13 +132,11 @@ version has been "committed."
 
 ## The information in a commit
 
-- The state of every file in the project when the commit was made*
-- The time when the commit was made*
-- The person who made the commit*
-- The message the person who made the commit gave to the commit*
-- The previous commit*
-
-Note: * means "requires further explaination."
+- Root tree
+- Author & author date
+- Committer & committer date
+- Message
+- Previous commit(s)
 
 ## Adding files to a commit
 
