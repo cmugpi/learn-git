@@ -4,11 +4,11 @@ learn how to use git
 
 ## dependencies
 
-| what       | why                                |
-|------------|------------------------------------|
-| POSIX      | so that make can run sh            |
-| GNU make   | so we can use % pattern rules      |
-| node + npm | so we can generate .html from .md  |
-| git        | to clone this repo                 |
-| entr       | to re-make when things change      |
-| a browser  | so that you can look at the slides |
+| what           | why                                |
+|----------------|------------------------------------|
+| `entr`         | to re-make when things change      |
+| `git`          | to clone this repo                 |
+| `node` + `npm` | so we can generate .html from .md  |
+| a browser      | so that you can look at the slides |
+| GNU `make`     | so we can use % pattern rules      |
+| POSIX          | so that make can run sh            |
