@@ -138,7 +138,7 @@ version has been "committed."
 - Message
 - Previous commit(s)
 
-## The index
+## Index: What goes into the next commit
 
 In order for a change to a file to be part of the next commit, we need to add
 those changes to the index. The command to do that is `git add`. Let's add
