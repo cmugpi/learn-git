@@ -111,7 +111,7 @@ so we'll ask it to do that for us.
 ## Knowing the status
 
 Now that `git` is managing our project, we can inquire as to what the state of
-our project is.
+our project is with `git status`.
 
 	$ git status
 	On branch master
@@ -173,7 +173,7 @@ Let's look at the status again.
 
 ## Making a commit
 
-OK, let's commit it. We can use the `-m` option of `git commit` to add a
+OK, let's commit it with `git commit`. We can use the `-m` option to add a
 message.
 
 	$ git commit -m 'Start the project'
