@@ -7,12 +7,12 @@
 	"license": "ISC",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/azdavis/learn-git.git"
+		"url": "git+https://github.com/cmugpi/learn-git.git"
 	},
 	"bugs": {
-		"url": "https://github.com/azdavis/learn-git/issues"
+		"url": "https://github.com/cmugpi/learn-git/issues"
 	},
-	"homepage": "https://github.com/azdavis/learn-git#readme",
+	"homepage": "https://github.com/cmugpi/learn-git#readme",
 	"dependencies": {
 		"markdown-to-slides": "^1.0.5"
 	}
