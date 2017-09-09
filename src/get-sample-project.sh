@@ -43,11 +43,11 @@ check_deps() {
 
 dl_sample_proj() {
 	dst='sample-project'
-	echo "downloading '$dst'"
+	url="https://github.com/cmugpi/learn-git/raw/master/src/$dst.zip"
+	echo "downloading and unzipping '$url' to '$dst'"
 	if [ -e "$dst" ] || [ -L "$dst" ]; then
 		panic "'$dst' already exists"
 	fi
-	url="https://github.com/cmugpi/learn-git/raw/master/src/$dst.zip"
 	tmp="$(mk_temp_dir)"
 	trap "rm -r '$tmp'" EXIT
 	zip="$tmp/$dst.zip"
