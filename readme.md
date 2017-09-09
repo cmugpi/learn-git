@@ -2,6 +2,10 @@
 
 learn how to use git
 
+further reading: [the git parable][1], on the design of git
+
+[1]: http://tom.preston-werner.com/2009/05/19/the-git-parable.html
+
 ## dependencies
 
 | what           | why                                |
