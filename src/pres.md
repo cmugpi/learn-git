@@ -227,8 +227,7 @@ Then ask about the status again.
 
 ## Seeing what the changes are
 
-We can use know exactly _what_ the various changes to files are with `git
-diff`.
+We can know exactly _what_ the various changes to files are with `git diff`.
 
 	$ git diff
 
