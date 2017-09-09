@@ -193,8 +193,8 @@ Right now it's just the one.
 
 We can make changes to files.
 
-	$ vim main.py
-	$ vim readme.md
+	$ echo 'print(3)' >> main.py
+	$ echo 'why hello there' >> readme.md
 
 Then ask about the status again.
 
