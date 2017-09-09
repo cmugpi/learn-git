@@ -209,9 +209,9 @@ Then ask about the status again.
 
 	no changes added to commit (use "git add" and/or "git commit -a")
 
-## Removing things from the index
+## Removing changes from the index
 
-As usual, we can add things to the index.
+As usual, we can add changes to the index.
 
 	$ git add main.py readme.md
 
