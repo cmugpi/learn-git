@@ -16,11 +16,13 @@ Ariel Davis
 - How am I supposed to prove I'm the one who made this?
 - What did I change since last week?
 
-## The answer: a Version Control System (VCS)
+## The answer: a Version Control System
 
 A system to control versions.
 
 Specifially, versions of _a project_, as it changes through time.
+
+"VCS" stands for "Version Control System."
 
 ## git: A popular VCS
 
