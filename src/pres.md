@@ -26,9 +26,7 @@ Specifially, versions of _a project_, as it changes through time.
 
 ## git: A popular VCS
 
-The VCS we'll be learning about today is called [git][1].
-
-[1]: http://tom.preston-werner.com/2009/05/19/the-git-parable.html
+The VCS we'll be learning about today is called git.
 
 git is very widely used. It was originally created to manage the development of
 the Linux kernel, arguably one of the largest and most important software
