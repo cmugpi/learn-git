@@ -209,6 +209,14 @@ Then ask about the status again.
 
 	no changes added to commit (use "git add" and/or "git commit -a")
 
+## Seeing what the changes are
+
+Let's suppose we want to know exactly _what_ the various changes to files are.
+
+We can use
+
+	$ git diff
+
 ## Removing changes from the index
 
 As usual, we can add changes to the index.
