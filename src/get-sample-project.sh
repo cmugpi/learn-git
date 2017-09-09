@@ -29,7 +29,7 @@ check_user() {
 check_deps() {
 	echo "checking deps are installed"
 	ok=true
-	for x in curl python git zip; do
+	for x in curl git python zip; do
 		if ! command -v "$x" > /dev/null; then
 			echo "'$x' not installed"
 			ok=false
