@@ -188,3 +188,23 @@ We can see what commits have been made in the past with `git log`.
 	    Start the project
 
 Right now it's just the one.
+
+## Making more changes
+
+We can make changes to files.
+
+	$ vim main.py
+	$ vim readme.md
+
+Then ask about the status again.
+
+	$ git status
+	On branch master
+	Changes not staged for commit:
+	  (use "git add <file>..." to update what will be committed)
+	  (use "git checkout -- <file>..." to discard changes in working directory)
+
+		modified:   main.py
+		modified:   readme.md
+
+	no changes added to commit (use "git add" and/or "git commit -a")
