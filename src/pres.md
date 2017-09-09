@@ -1,4 +1,4 @@
-# Learn Git
+# git
 
 Ariel Davis
 
