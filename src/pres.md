@@ -211,9 +211,8 @@ Then ask about the status again.
 
 ## Seeing what the changes are
 
-Let's suppose we want to know exactly _what_ the various changes to files are.
-
-We can use
+We can use know exactly _what_ the various changes to files are with `git
+diff`.
 
 	$ git diff
 
@@ -224,21 +223,19 @@ As usual, we can add changes to the index.
 	$ git add main.py readme.md
 
 Let's suppose, however, that we regret our actions, and want to remove the
-changes to `main.py` _from the index_. Important note: we don't want to discard
-the changes altogether, we just don't want the changes to be in the index.
+changes to `readme.md` _from the index_. Important note: we don't want to
+discard the changes altogether, we just don't want the changes to be in the
+index. We can do this `git reset`.
 
-We can use
-
-	$ git reset main.py
+	$ git reset readme.md
 
 ## Removing changes from the working tree
 
 Different from the previous scenario, let's suppose we have changes to a file
-(say `main.py`), and we want to completely get rid of those changes.
+(say `readme.md`), and we want to completely get rid of those changes. We can
+do this with `git checkout`.
 
-We can use
-
-	$ git checkout main.py
+	$ git checkout readme.md
 
 You should be very careful with this command, since it discards uncommitted
 changes.
