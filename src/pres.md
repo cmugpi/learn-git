@@ -208,3 +208,17 @@ Then ask about the status again.
 		modified:   readme.md
 
 	no changes added to commit (use "git add" and/or "git commit -a")
+
+## Removing things from the index
+
+As usual, we can add things to the index.
+
+	$ git add main.py readme.md
+
+Let's suppose, however, that we regret our actions, and want to remove the
+changes to `main.py` _from the index_. Important note: we don't want to discard
+the changes altogether, we just don't want the changes to be in the index.
+
+We can use
+
+	$ git reset main.py
