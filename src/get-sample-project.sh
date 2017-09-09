@@ -49,7 +49,7 @@ dl_sample_proj() {
 	fi
 	url="https://github.com/cmugpi/learn-git/raw/master/src/$dst.zip"
 	tmp="$(mk_temp_dir)"
-	trap "rm -r -- '$tmp'" EXIT
+	trap "rm -r '$tmp'" EXIT
 	zip="$tmp/$dst.zip"
 	curl -fsSLo "$zip" "$url"
 	unzip -q -d . "$zip"
