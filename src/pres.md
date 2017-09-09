@@ -40,6 +40,18 @@ this out to see if you have git installed:
 	$ git --version
 	git version <something>
 
+## Get help with git
+
+The first git command to learn is the one that gives you information about all
+the other ones. It's `git help`.
+
+	$ git help
+
+Suppose we learn about a command called `git add`. We could get help for that
+specific command.
+
+	$ git help add
+
 ## Set up your information with git
 
 You'll only have to do this once per computer that you use:
