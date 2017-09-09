@@ -239,3 +239,12 @@ do this with `git checkout`.
 
 You should be very careful with this command, since it discards uncommitted
 changes.
+
+## Another commit
+
+After all those commands, `main.py` remains in the index. So we can make
+another commit as usual.
+
+	$ git commit -m 'print 3'
+	[master f62b85f] print 3
+	 1 file changed, 1 insertion(+)
