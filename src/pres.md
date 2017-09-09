@@ -222,3 +222,15 @@ the changes altogether, we just don't want the changes to be in the index.
 We can use
 
 	$ git reset main.py
+
+## Removing changes from the working tree
+
+Different from the previous scenario, let's suppose we have changes to a file
+(say `main.py`), and we want to completely get rid of those changes.
+
+We can use
+
+	$ git checkout main.py
+
+You should be very careful with this command, since it discards uncommitted
+changes.
