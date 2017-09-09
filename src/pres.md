@@ -81,7 +81,8 @@ This project isn't yet managed by git. We can prove that to ourselves with:
 
 ## Initializing a git repository
 
-We want to start managing this project with Git. We can do this with:
+We want to start managing this project with Git. We can do this with
+`git init`.
 
 	$ git init
 	Initialized empty git repository in <current directory>
