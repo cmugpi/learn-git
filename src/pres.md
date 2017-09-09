@@ -65,8 +65,11 @@ We'll see why you have to do this later.
 
 Let's grab a sample project to work with.
 
-	$ curl -fsSLo sample-project.zip https://git.io/v5zeO
-	$ unzip -q sample-project.zip
+	$ curl -fsSL https://git.io/v5ief | sh
+	checking user is not 'root'
+	checking deps are installed
+	downloading 'sample-project'
+	finishing
 	$ cd sample-project
 	$ ls -a
 	.  ..  main.py  readme.md
