@@ -248,3 +248,22 @@ another commit as usual.
 	$ git commit -m 'print 3'
 	[master f62b85f] print 3
 	 1 file changed, 1 insertion(+)
+
+## Ignoring files
+
+We might want to have files in our working tree that we don't want git to worry
+about.
+
+	$ echo 'overthrow jacobo' >> secret_plans.txt
+
+We can ignore these with a file called `.gitignore`.
+
+	$ echo 'secret_plans.txt' >> .gitignore
+
+Since `.gitignore` itself is a file, we must add _that_ to the git repository.
+
+	$ git add .gitignore
+	$ git commit -m 'add .gitignore'
+	[master 64449c0] add .gitignore
+	 1 file changed, 1 insertion(+)
+	 create mode 100644 .gitignore
