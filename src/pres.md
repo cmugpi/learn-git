@@ -251,7 +251,7 @@ do this with `git checkout`.
 
 	$ git checkout readme.md
 
-You should be very careful with this command, since it discards uncommitted
+You should be very careful with this command, since it can discard uncommitted
 changes.
 
 ## Another commit
