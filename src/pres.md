@@ -227,8 +227,18 @@ Then ask about the status again.
 ## Seeing what the changes are
 
 We can know exactly _what_ the various changes to files are with `git diff`.
+We can give `git diff` a path to show us changes for just that file.
 
-	$ git diff
+	$ git diff main.py
+	diff --git a/main.py b/main.py
+	index 7411cd6..33939f2 100644
+	--- a/main.py
+	+++ b/main.py
+	@@ -3,3 +3,4 @@ def sayHello(x):
+
+	 sayHello("user")
+	 sayHello("world")
+	+print(3)
 
 ## Removing changes from the index
 
