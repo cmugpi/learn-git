@@ -67,7 +67,7 @@ Let's grab a sample project to work with.
 	$ curl -fsSL https://git.io/v5ief | sh
 	checking user is not 'root'
 	checking deps are installed
-	downloading 'sample-project'
+	downloading and unzipping '...' to 'sample-project'
 	finishing
 	$ cd sample-project
 	$ ls -a
