@@ -85,7 +85,7 @@ We want to start managing this project with Git. We can do this with
 	$ git init
 	Initialized empty git repository in <current directory>
 
-Ok, what changed?
+OK, what changed?
 
 	$ ls -a
 	.  ..  .git  main.py  readme.md
