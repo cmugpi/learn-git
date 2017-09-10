@@ -4,8 +4,7 @@
 
 ## Some questions
 
-- I swear, this was working just a few minutes ago. What did I change to break
-  it?
+- This was working just a few minutes ago. What did I change to break it?
 - I'm working on a side project with my friend, but I hate having to email our
   code back and forth. How can I avoid this?
 - When did I implement this?
