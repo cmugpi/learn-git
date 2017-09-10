@@ -5,8 +5,8 @@
 ## Some questions
 
 - This was working just a few minutes ago. What did I change to break it?
-- I'm working on a side project with my friend, but I hate having to email our
-  code back and forth. How can I avoid this?
+- I'm working on a side project with my friend. How can I avoid having to email
+  our code back and forth?
 - When did I implement this?
 - Who implemented this?
 - I'd like to start implementing this feature, but I'll probably have to change
