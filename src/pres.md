@@ -52,7 +52,7 @@ specific command.
 
 ## Set up your information with git
 
-You'll only have to do this once per computer that you use:
+You'll only have to do this once per computer that you use.
 
 	$ git config --global user.name 'Your Name'
 	$ git config --global user.email 'your_email@example.com'
@@ -72,7 +72,7 @@ Let's grab a sample project to work with.
 	$ ls -a
 	.  ..  main.py  readme.md
 
-This project isn't yet managed by git. We can prove that to ourselves with:
+This project isn't yet managed by git.
 
 	$ git status
 	fatal: Not a git repository (or any of the parent directories): .git
@@ -182,7 +182,7 @@ OK, let's commit it.
 	 create mode 100644 main.py
 	 create mode 100644 readme.md
 
-And another look at the status:
+And another look at the status.
 
 	$ git status
 	On branch master
