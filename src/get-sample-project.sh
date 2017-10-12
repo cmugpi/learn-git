@@ -26,19 +26,19 @@ check_user() {
 	panic "user is 'root'"
 }
 
-check_deps() {
-	echo "checking deps are installed"
+find_deps() {
+	echo "finding dependencies"
 	ok=true
 	for x in curl git python unzip; do
 		if ! command -v "$x" > /dev/null; then
-			echo "'$x' not installed"
+			echo "'$x' not found"
 			ok=false
 		fi
 	done
 	if $ok; then
 		return
 	fi
-	panic "not all deps are installed"
+	panic "not all dependencies were found"
 }
 
 dl_sample_proj() {
@@ -58,7 +58,7 @@ dl_sample_proj() {
 main() {
 	set -eu
 	check_user
-	check_deps
+	find_deps
 	dl_sample_proj
 	echo "finishing"
 }
