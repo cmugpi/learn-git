@@ -18,6 +18,10 @@ mk_temp_dir() {
 	echo "$x"
 }
 
+cmd_found() {
+	command -v "$1" > /dev/null
+}
+
 check_user() {
 	echo "checking user is not 'root'"
 	if [ "$LOGNAME" != root ]; then
@@ -30,7 +34,7 @@ find_deps() {
 	echo "finding dependencies"
 	ok=true
 	for x in curl git python unzip; do
-		if ! command -v "$x" > /dev/null; then
+		if ! cmd_found "$x"; then
 			echo "'$x' not found"
 			ok=false
 		fi
