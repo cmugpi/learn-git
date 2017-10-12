@@ -32,8 +32,8 @@ projects in existence.
 
 Anyone can use git. It is free and open-source software.
 
-On the command line, the program name for working with git is called `git`. Try
-this out to see if you have git installed:
+On the command line, the program name for working with git is called `git`.
+It's available on the Andrew machines when you `ssh` in.
 
 	$ git --version
 	git version <something>
