@@ -91,8 +91,8 @@ OK, what changed?
 
 ## The `.git` directory
 
-We can see that `git init` created a special directory inside our project
-directory called `.git`.
+We can see there is now a special directory, called `.git`, inside our project
+directory.
 
 You should NEVER do the following:
 
