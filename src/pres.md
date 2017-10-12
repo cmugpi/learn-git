@@ -41,7 +41,7 @@ this out to see if you have git installed:
 ## Get help with git
 
 The first git command to learn is the one that gives you information about all
-the other ones. It's `git help`.
+the other ones.
 
 	$ git help
 
@@ -79,8 +79,7 @@ This project isn't yet managed by git. We can prove that to ourselves with:
 
 ## Initializing a git repository
 
-We want to start managing this project with Git. We can do this with
-`git init`.
+We want to start managing this project with Git.
 
 	$ git init
 	Initialized empty git repository in <current directory>
@@ -92,8 +91,8 @@ OK, what changed?
 
 ## The `.git` directory
 
-We can see that `git` created a special directory inside our project directory
-called `.git`.
+We can see that `git init` created a special directory inside our project
+directory called `.git`.
 
 You should NEVER do the following:
 
@@ -113,7 +112,7 @@ so we'll ask it to do that for us.
 ## Knowing the status
 
 Now that `git` is managing our project, we can inquire as to what the state of
-our project is with `git status`.
+our project is.
 
 	$ git status
 	On branch master
@@ -155,8 +154,8 @@ version has been "committed."
 ## Index: What goes into the next commit
 
 In order for a change to a file to be part of the next commit, we need to add
-those changes to the index. The command to do that is `git add`. Let's add
-every file in the current directory to the index.
+those changes to the index. Let's add the changes to every file in the current
+directory, to the index.
 
 	$ git add .
 
@@ -175,8 +174,7 @@ Let's look at the status again.
 
 ## Making a commit
 
-OK, let's commit it with `git commit`. We can use the `-m` option to add a
-message.
+OK, let's commit it.
 
 	$ git commit -m 'Start the project'
 	[master (root-commit) 9f0c312] Start the project
@@ -192,7 +190,7 @@ And another look at the status:
 
 ## Viewing the commit log
 
-We can see what commits have been made in the past with `git log`.
+We can see what commits have been made in the past.
 
 	$ git log
 	commit 9f0c312408966a1aff04726b75e6eb5a01694be1 (HEAD -> master)
@@ -225,8 +223,7 @@ Then ask about the status again.
 
 ## Seeing what the changes are
 
-We can know exactly _what_ the various changes to files are with `git diff`.
-We can give `git diff` a path to show us changes for just that file.
+We can find out exactly _what_ changed in a given file.
 
 	$ git diff main.py
 	diff --git a/main.py b/main.py
@@ -248,15 +245,14 @@ As usual, we can add changes to the index.
 Let's suppose, however, that we regret our actions, and want to remove the
 changes to `readme.md` _from the index_. Important note: we don't want to
 discard the changes altogether, we just don't want the changes to be in the
-index. We can do this `git reset`.
+index.
 
 	$ git reset readme.md
 
 ## Removing changes from the working tree
 
 Different from the previous scenario, let's suppose we have changes to a file
-(say `readme.md`), and we want to completely get rid of those changes. We can
-do this with `git checkout`.
+(say `readme.md`), and we want to completely get rid of those changes.
 
 	$ git checkout readme.md
 
