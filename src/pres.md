@@ -194,9 +194,9 @@ And another look at the status.
 We can see what commits have been made in the past.
 
 	$ git log
-	commit 9f0c312408966a1aff04726b75e6eb5a01694be1 (HEAD -> master)
+	commit 501482bfbfcf281e95090b058c3eeb71d3f93bef (HEAD -> master)
 	Author: Ariel Davis <ariel.z.davis@icloud.com>
-	Date:   2017-09-04 18:19:12 -0400
+	Date:   2017-10-25 19:45:29 -0400
 
 	    Start the project
 
