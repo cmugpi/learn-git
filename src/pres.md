@@ -287,10 +287,3 @@ Since `.gitignore` itself is a file, we must add _that_ to the git repository.
 	[master 64449c0] add .gitignore
 	 1 file changed, 1 insertion(+)
 	 create mode 100644 .gitignore
-
-## `add`, `reset`, `checkout` with 'patches'
-
-Suppose we want to `add`, `reset`, or `checkout` only _part_ of a file. How can
-we select the parts of the file to operate on?
-
-Use the `-p` (also `--patch`) option of those commands.
