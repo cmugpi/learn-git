@@ -8,7 +8,6 @@
 - I'm working on a side project with my friend. How can I avoid having to email
   our code back and forth?
 - When did I implement this?
-- Who implemented this?
 - I'd like to start implementing this feature, but I'll probably have to change
   a bunch of files in my project. Is there a way I could switch between
   "working on the feature" mode and "stable" mode?
