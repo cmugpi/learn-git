@@ -33,6 +33,10 @@ check_user() {
 find_deps() {
 	echo "finding dependencies"
 	ok=true
+	if cmd_found xcode-select && ! xcode-select -p > /dev/null; then
+		echo "'Command Line Developer Tools' not found"
+		ok=false
+	fi
 	for x in curl git python unzip; do
 		if ! cmd_found "$x"; then
 			echo "'$x' not found"
