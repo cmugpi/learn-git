@@ -12,6 +12,8 @@
   a bunch of files in my project. Is there a way I could switch between
   "working on the feature" mode and "stable" mode?
 - How am I supposed to prove I'm the one who made this?
+- If a pupper is a small doggo, and a doggo is a big ol' pupper, where does the
+  mutual recursion end?
 
 ## The answer: a Version Control System
 
