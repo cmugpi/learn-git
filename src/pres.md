@@ -71,13 +71,8 @@ But what if we have a project on our computer which isn't managed by git yet?
 
 ## A sample project
 
-Let's grab a sample project to work with.
+Let's look at a sample project.
 
-	$ curl -fsSL https://git.io/v5ief | sh
-	checking user is not 'root'
-	finding dependencies
-	downloading and unzipping '...' to 'sample-project'
-	finishing
 	$ cd sample-project
 	$ ls -a
 	.  ..  main.py  readme.md
