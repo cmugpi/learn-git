@@ -366,6 +366,7 @@ As discussed, we can use `git checkout <commit>` to replace the entire working
 tree with the stuff in `<commit>`, and update `HEAD` to be commit.
 
 	$ git checkout research-doggos
+	Switched to branch 'research-doggos'
 
 We notice the following.
 
