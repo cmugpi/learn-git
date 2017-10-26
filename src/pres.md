@@ -16,7 +16,7 @@
 
 A system to control versions.
 
-Specifially, versions of _a project_, as it changes through time.
+Specifically, versions of _a project_, as it changes through time.
 
 "VCS" stands for "Version Control System."
 
