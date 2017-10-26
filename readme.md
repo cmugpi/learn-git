@@ -2,9 +2,13 @@
 
 learn how to use git
 
-further reading: [the git parable][1], on the design of git
+further reading:
 
-[1]: http://tom.preston-werner.com/2009/05/19/the-git-parable.html
+- [the git parable][parable]
+- [the git book][book]
+
+[parable]: http://tom.preston-werner.com/2009/05/19/the-git-parable.html
+[book]: https://git-scm.com/book/en/v2
 
 ## dependencies
 
