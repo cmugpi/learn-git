@@ -406,7 +406,7 @@ We can change a file common to both branches.
 	$ git checkout research-doggos
 	Switched to branch 'research-doggos'
 	$ echo 'print("DOGGOS ARE GOOD")' >> main.py
-	$ git add -A
+	$ git add main.py
 	$ git commit -m 'note the goodness of doggos'
 	[research-doggos b49f993] note the goodness of doggos
 	 1 file changed, 1 insertion(+)
