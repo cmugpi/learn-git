@@ -309,7 +309,8 @@ But what's this? "On branch `master`?" What is a "branch?"
 
 In git, a branch is just a name for a certain commit.
 
-	$ git rev-parse master
+	$ git rev-parse HEAD master
+	a99f9a7bb35682dc79b7b6701f0f348621a2cd35
 	a99f9a7bb35682dc79b7b6701f0f348621a2cd35
 
 We see that `master` and `HEAD` are the same commit. Indeed, that's why git
@@ -345,7 +346,7 @@ tree with the stuff in `<commit>`, and update `HEAD` to be commit.
 
 We notice the following.
 
-	$ git rev-parse HEAD research-doggos master
+	$ git rev-parse HEAD master research-doggos
 	a99f9a7bb35682dc79b7b6701f0f348621a2cd35
 	a99f9a7bb35682dc79b7b6701f0f348621a2cd35
 	a99f9a7bb35682dc79b7b6701f0f348621a2cd35
