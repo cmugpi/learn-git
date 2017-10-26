@@ -1,15 +1,12 @@
 N = $(PWD)/node_modules/.bin/
 
 .SUFFIXES:
-.PHONY: all clean watch
+.PHONY: all clean
 
 all: node_modules build/pres.html
 
 clean:
 	rm -rf build
-
-watch:
-	trap exit INT && find src | entr -c $(MAKE)
 
 node_modules:
 	npm i
