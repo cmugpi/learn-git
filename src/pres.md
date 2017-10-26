@@ -383,7 +383,7 @@ All three of these refer to the same commit.
 
 But now let's do something interesting.
 
-## Making a commit on a branch
+## Making another commit
 
 Let's make a commit.
 
