@@ -468,3 +468,8 @@ a certain commit's changes.
 	[master 8a440cc] Revert "add .gitignore"
 	 1 file changed, 1 deletion(-)
 	 delete mode 100644 .gitignore
+
+## 終わり (The end)
+
+	$ ssh andrew
+	$ git clone https://github.com/cmugpi/romance-lab-handout.git
