@@ -60,6 +60,15 @@ You'll only have to do this once per computer that you use.
 
 We'll see why you have to do this later.
 
+## Cloning
+
+If we want to start working on a project that's already on a git server
+somewhere, we can clone the repository to our local machine.
+
+	$ git clone https://github.com/cmugpi/gpi-labs.git
+
+But what if we have a project on our computer which isn't managed by git yet?
+
 ## A sample project
 
 Let's grab a sample project to work with.
