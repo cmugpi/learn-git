@@ -240,29 +240,6 @@ We can find out exactly _what_ changed in a given file.
 	 sayHello("world")
 	+print(3)
 
-## Removing changes from the index
-
-As usual, we can add changes to the index.
-
-	$ git add main.py readme.md
-
-Let's suppose, however, that we regret our actions, and want to remove the
-changes to `readme.md` _from the index_. Important note: we don't want to
-discard the changes altogether, we just don't want the changes to be in the
-index.
-
-	$ git reset readme.md
-
-## Removing changes from the working tree
-
-Different from the previous scenario, let's suppose we have changes to a file
-(say `readme.md`), and we want to completely get rid of those changes.
-
-	$ git checkout readme.md
-
-You should be very careful with this command, since it can discard uncommitted
-changes.
-
 ## Another commit
 
 After all those commands, `main.py` remains in the index. So we can make
@@ -293,13 +270,8 @@ Since `.gitignore` itself is a file, we must add _that_ to the git repository.
 
 ## Switching between commits
 
-We saw earlier that `git checkout <file>` basically turns `<file>` in your
-working directory to the way it was in a certain commit.
-
-What should `git checkout <commit>` mean?, Well, that's basically like saying
-we want to turn _every_ file in the working directory into the way it was at
-`<commit>`. This basically "switches" us to looking `<commit>` in our working
-directory.
+We can use `git checkout <commit>` to "switch" our working tree to that commit.
+In git, we call this action a "checkout."
 
 We can use the special name `HEAD` to talk about the commit which is currently
 checked out.
