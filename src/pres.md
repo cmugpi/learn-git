@@ -365,10 +365,11 @@ Now let's look again.
 
 We see that `HEAD` got updated to the new commit. That makes sense.
 
-We also see that `research-doggos`, the "current branch," also got updated to
+We also see that `research-doggos`, the branch you're "on," also got updated to
 now refer to this new commit.
 
-Finally, we see `master`, which is not the "current branch," remained the same.
+Finally, we see `master`, which is not the branch you're "on," remained the
+same.
 
 ## How `HEAD` and branches get updated
 
@@ -376,8 +377,8 @@ This points to some interesting ideas.
 
 - Whenever you make a commit, `HEAD` will always be updated to refer to that
   new commit.
-- Whenever `HEAD` refers to the same commit as a branch, the branch will also
-  be updated to refer to any new commits.
+- If you're "on" a branch, the branch will also be updated to refer to that new
+  commit.
 - No other branches get affected.
 
 ## More examples of checkout
