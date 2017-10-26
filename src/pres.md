@@ -150,9 +150,8 @@ version has been "committed."
 
 ## The information in a commit
 
-- Root tree
-- Author & author date
-- Committer & committer date
+- The state of all the files in the project
+- Who committed this, and when
 - Message
 - Previous commit(s)
 
