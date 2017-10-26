@@ -294,7 +294,7 @@ Since `.gitignore` itself is a file, we must add _that_ to the git repository.
 
 ## Switching between commits
 
-We saw earlier that `git checkout <file>` basically turns `<file>` in you
+We saw earlier that `git checkout <file>` basically turns `<file>` in your
 working directory to the way it was in a certain commit.
 
 What should `git checkout <commit>` mean?, Well, that's basically like saying
