@@ -105,7 +105,7 @@ You should NEVER do the following:
 - (Directly) modify the contents of the `.git` directory.
 
 It is enough to know that the `.git` directory is important, and that you
-should not interfere with it (directly).
+(usually) should not interfere with it (directly).
 
 ## Knowing the status
 
