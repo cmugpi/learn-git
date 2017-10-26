@@ -433,3 +433,45 @@ We can change a file common to both branches.
 	Hello, user
 	Hello, world
 	3
+
+## Using branches to develop features
+
+A useful way to use branches is to have a certain branch on which you develop a
+given feature in your project.
+
+For instance, the idea of the `research-doggos` branch is that we make commits
+about our research of doggos, updating `research-doggos` to refer to the most
+recent commit concerning our research of doggos as we go. But we don't update
+`master` yet, because we're not finished with our research of doggos.
+
+## When a branch is "finished"
+
+Let's suppose we do finish our research of doggos. We want to now update
+`master` to have all the research of doggos that we did.
+
+We can make a commit with two parents: one being the current `master`, and the
+other being `research-doggos`. We call this a merge commit.
+
+	$ git merge research-doggos
+	Updating a99f9a7..b49f993
+	Fast-forward
+	 main.py                  | 1 +
+	 pupper_investigation.txt | 1 +
+	 2 files changed, 2 insertions(+)
+	 create mode 100644 pupper_investigation.txt
+
+## Undoing a commit
+
+If we make a commit that we later regret, we can make a new commit that undoes
+a certain commit's changes.
+
+	$ git log --grep gitignore
+	commit a99f9a7bb35682dc79b7b6701f0f348621a2cd35
+	Author: Ariel Davis <ariel.z.davis@icloud.com>
+	Date:   2017-10-25 19:46:58 -0400
+
+	    add .gitignore
+	$ git revert --no-edit a99f9a7bb35682dc79b7b6701f0f348621a2cd35
+	[master 8a440cc] Revert "add .gitignore"
+	 1 file changed, 1 deletion(-)
+	 delete mode 100644 .gitignore
