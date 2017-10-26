@@ -349,12 +349,12 @@ But now let's do something interesting.
 
 Let's make a commit.
 
-	$ echo 'from whence do puppers ariseth?' >> pupper_investigation.txt
-	$ git add pupper_investigation.txt
+	$ echo 'from whence do puppers ariseth?' >> q.txt
+	$ git add q.txt
 	$ git commit -m 'add research question'
 	[research-doggos 77a89c4] add research question
 	 1 file changed, 1 insertion(+)
-	 create mode 100644 pupper_investigation.txt
+	 create mode 100644 q.txt
 
 ## What happened?
 
@@ -387,7 +387,7 @@ This points to some interesting ideas.
 Remember what files are in our current directory?
 
 	$ ls
-	main.py  pupper_investigation.txt  readme.md  secret_plans.txt
+	main.py  q.txt  readme.md  secret_plans.txt
 
 What happens when we return to `master`?
 
@@ -445,10 +445,10 @@ other being `research-doggos`. We call this a merge commit.
 	$ git merge research-doggos
 	Updating a99f9a7..b49f993
 	Fast-forward
-	 main.py                  | 1 +
-	 pupper_investigation.txt | 1 +
+	 main.py | 1 +
+	 q.txt   | 1 +
 	 2 files changed, 2 insertions(+)
-	 create mode 100644 pupper_investigation.txt
+	 create mode 100644 q.txt
 
 ## Undoing a commit
 
