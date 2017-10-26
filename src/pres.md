@@ -415,3 +415,45 @@ This points to some interesting ideas.
 - Whenever `HEAD` refers to the same commit as a branch, the branch will also
   be updated to refer to any new commits.
 - No other branches get affected.
+
+## More examples of checkout
+
+Remember what files are in our current directory?
+
+	$ ls
+	main.py  pupper_investigation.txt  readme.md  secret_plans.txt
+
+What happens when we return to `master`?
+
+	$ git checkout master
+	Switched to branch 'master'
+	$ ls
+	main.py  readme.md  secret_plans.txt
+
+## When a file shared between branches is changed
+
+We can change a file common to both branches.
+
+	$ git checkout research-doggos
+	Switched to branch 'research-doggos'
+	$ echo 'print("DOGGOS ARE GOOD")' >> main.py
+	$ git add -A
+	$ git commit -m 'note the goodness of doggos'
+	[research-doggos b49f993] note the goodness of doggos
+	 1 file changed, 1 insertion(+)
+
+## When a file shared between branches is changed
+
+	$ git checkout research-doggos
+	Already on 'research-doggos'
+	$ python main.py
+	Hello, user
+	Hello, world
+	3
+	DOGGOS ARE GOOD
+	$ git checkout master
+	Switched to branch 'master'
+	$ python main.py
+	Hello, user
+	Hello, world
+	3
