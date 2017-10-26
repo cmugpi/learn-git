@@ -25,10 +25,7 @@ Specifically, versions of _a project_, as it changes through time.
 The VCS we'll be learning about today is called git.
 
 git is very widely used. It was originally created to manage the development of
-the Linux kernel, arguably one of the largest and most important software
-projects in existence.
-
-Anyone can use git. It is free and open-source software.
+the Linux kernel, but it was made available for anyone to use.
 
 On the command line, the program name for working with git is called `git`.
 It's available on the Andrew machines when you `ssh` in.
