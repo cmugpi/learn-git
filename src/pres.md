@@ -107,10 +107,6 @@ You should NEVER do the following:
 It is enough to know that the `.git` directory is important, and that you
 should not interfere with it (directly).
 
-Of course, you _will_ be interfering with the `.git` directory indirectly: by
-using `git` commands. `git` knows how to modify the `.git` directory correctly,
-so we'll ask it to do that for us.
-
 ## Knowing the status
 
 Now that `git` is managing our project, we can inquire as to what the state of
