@@ -338,4 +338,79 @@ In git, a branch is just a name for a certain commit.
 	a99f9a7bb35682dc79b7b6701f0f348621a2cd35
 
 We see that `master` and `HEAD` are the same commit. Indeed, that's why git
-said we're "on branch `master`."
+said we're "on branch `master`." Because the currently checked-out commit
+(`HEAD`) is the same as the commit that `master` refers to.
+
+## Making a branch
+
+Let's see what branches there are.
+
+	$ git branch
+	* master
+
+We can make a new branch.
+
+	$ git branch research-doggos
+
+And check again.
+
+	$ git branch
+	* master
+	  research-doggos
+
+The `*` appears next to the currently checked-out branch.
+
+## Switching to the new branch
+
+As discussed, we can use `git checkout <commit>` to replace the entire working
+tree with the stuff in `<commit>`, and update `HEAD` to be commit.
+
+	$ git checkout research-doggos
+
+We notice the following.
+
+	$ git rev-parse HEAD research-doggos master
+	a99f9a7bb35682dc79b7b6701f0f348621a2cd35
+	a99f9a7bb35682dc79b7b6701f0f348621a2cd35
+	a99f9a7bb35682dc79b7b6701f0f348621a2cd35
+
+All three of these refer to the same commit.
+
+But now let's do something interesting.
+
+## Making a commit on a branch
+
+Let's make a commit.
+
+	$ echo 'from whence do puppers ariseth?' >> pupper_investigation.txt
+	$ git add pupper_investigation.txt
+	$ git commit -m 'add research question'
+	[research-doggos 77a89c4] add research question
+	 1 file changed, 1 insertion(+)
+	 create mode 100644 pupper_investigation.txt
+
+## What happened?
+
+Now let's look again.
+
+	$ git rev-parse HEAD research-doggos master
+	77a89c4adbca01263c73853b3a7c2933c0ff118a
+	77a89c4adbca01263c73853b3a7c2933c0ff118a
+	a99f9a7bb35682dc79b7b6701f0f348621a2cd35
+
+We see that `HEAD` got updated to the new commit. That makes sense.
+
+We also see that `research-doggos`, the "current branch," also got updated to
+now refer to this new commit.
+
+Finally, we see `master`, which is not the "current branch," remained the same.
+
+## How `HEAD` and branches get updated
+
+This points to some interesting ideas.
+
+- Whenever you make a commit, `HEAD` will always be updated to refer to that
+  new commit.
+- Whenever `HEAD` refers to the same commit as a branch, the branch will also
+  be updated to refer to any new commits.
+- No other branches get affected.
