@@ -3,7 +3,7 @@
 }
 
 html {
-	font: large/1.5 -apple-system, BlinkMacSystemFont, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 	color: #222;
 }
 
@@ -40,5 +40,7 @@ h2 {
 }
 
 .remark-slide-content {
+	font-size: 24px;
+	line-height: 1.5;
 	padding: 1em;
 }
