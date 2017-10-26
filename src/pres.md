@@ -303,9 +303,7 @@ In git, a branch is just a name for a certain commit.
 	a99f9a7bb35682dc79b7b6701f0f348621a2cd35
 	a99f9a7bb35682dc79b7b6701f0f348621a2cd35
 
-We see that `master` and `HEAD` are the same commit. Indeed, that's why git
-said we're "on branch `master`." Because the currently checked-out commit
-(`HEAD`) is the same as the commit that `master` refers to.
+We see that `master` and `HEAD` are the same commit.
 
 ## Making a branch
 
