@@ -3,7 +3,8 @@ N = $(PWD)/node_modules/.bin/
 .SUFFIXES:
 .PHONY: all clean
 
-all: node_modules build/pres.html
+all: node_modules \
+	$(patsubst src/%.md,build/%.html,$(shell find src -name '*.md'))
 
 clean:
 	rm -rf build
