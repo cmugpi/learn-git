@@ -11,6 +11,6 @@ clean:
 node_modules:
 	npm i
 
-build/%.html: src/%.md src/%.css
+build/%.html: src/%.md src/style.css
 	mkdir -p $(dir $@)
-	$(N)markdown-to-slides -d --level 2 -i -s src/$*.css -o $@ $< $(Q)
+	$(N)markdown-to-slides -d --level 2 -i -s src/style.css -o $@ $< $(Q)
