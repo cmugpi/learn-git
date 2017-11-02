@@ -4,8 +4,8 @@ learn how to use git
 
 further reading:
 
-- [the git parable][parable]
-- [the git book][book]
+- [the git parable][parable], on the design of git
+- [the git book][book], on how to use git
 
 [parable]: http://tom.preston-werner.com/2009/05/19/the-git-parable.html
 [book]: https://git-scm.com/book/en/v2
