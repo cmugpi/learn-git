@@ -6,9 +6,11 @@ further reading:
 
 - [the git parable][parable], on the design of git
 - [the git book][book], on how to use git
+- [hub][hub], for interacting with GitHub via CLI
 
 [parable]: http://tom.preston-werner.com/2009/05/19/the-git-parable.html
 [book]: https://git-scm.com/book/en/v2
+[hub]: https://hub.github.com
 
 ## dependencies
 
