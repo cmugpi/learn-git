@@ -16,10 +16,10 @@ further reading:
 
 ## dependencies
 
-| what           | why                                |
-|----------------|------------------------------------|
-| `git`          | to clone this repo                 |
-| `node` + `npm` | so we can generate .html from .md  |
-| a browser      | so that you can look at the slides |
-| GNU `make`     | so we can use % pattern rules      |
-| POSIX          | so that make can run sh            |
+| what           | why                        |
+|----------------|----------------------------|
+| `git`          | to clone this repo         |
+| `node` + `npm` | to generate .html from .md |
+| a browser      | to look at the slides      |
+| GNU `make`     | to use % pattern rules     |
+| `sh`           | to have a working `make`   |
