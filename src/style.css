@@ -58,3 +58,7 @@ img {
 .center pre {
 	text-align: initial;
 }
+
+.remark-code {
+	font-size: 1em;
+}
