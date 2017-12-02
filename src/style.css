@@ -14,6 +14,7 @@ code {
 }
 
 pre {
+	margin: 0.5em 0;
 	padding: 0.3em;
 	border-radius: 0.3em;
 	overflow-x: hidden;
@@ -36,6 +37,10 @@ h3 {
 }
 
 h2 {
+	margin: 0 0 0.25em;
+}
+
+p {
 	margin: 0.5em 0;
 }
 
@@ -47,7 +52,7 @@ img {
 .remark-slide-content {
 	font-size: 24px;
 	line-height: 1.5;
-	padding: 1em;
+	padding: 0.5em;
 }
 
 .center pre {
